@@ -1184,3 +1184,5 @@
 73	87	1742903831340211705	/home/mariem/ili9341_display_driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	87f4b654ae3d9475
 87	11468	0	CMakeFiles/flash	18823a7229724ccb
 87	11468	0	/home/mariem/ili9341_display_driver/build/CMakeFiles/flash	18823a7229724ccb
+21	132	0	CMakeFiles/save-defconfig	1d02843def4f274c
+21	132	0	/home/mariem/ili9341_display_driver/build/CMakeFiles/save-defconfig	1d02843def4f274c

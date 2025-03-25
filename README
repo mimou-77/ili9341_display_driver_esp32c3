@@ -1,0 +1,5 @@
+Driver for ili9341 display
+
+esp32c3 - esp-idf 
+
+lvgl ui can be created directly inside ui()
