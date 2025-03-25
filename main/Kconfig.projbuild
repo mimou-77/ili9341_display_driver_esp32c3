@@ -1,0 +1,61 @@
+menu "ili9341 display configuration"
+
+    config SPI_PERIPH_SPI2
+        bool "use SPI2 peripheral ?"
+        default "y"
+
+    config SPI_PERIPH_SPI3
+        bool "use SPI3 peripheral ?"
+        default "n"
+
+    config LCD_H_RES 
+        int "LCD_H_RES"
+        default 240
+    
+    config LCD_V_RES
+        int "LCD_V_RES"
+        default 320
+
+    config LCD_GPIO_SCLK
+        int "LCD_GPIO_SCLK"
+        default 18
+    
+    config LCD_GPIO_MOSI
+        int "LCD_GPIO_MOSI"
+        default 19
+
+    config LCD_GPIO_MISO
+        int "LCD_GPIO_MISO"
+        default -1
+
+    config LCD_GPIO_RST
+        int "LCD_GPIO_RST"
+        default 3
+
+    config LCD_GPIO_DC
+        int "LCD_GPIO_DC"
+        default 5
+
+    config LCD_GPIO_CS
+        int "LCD_GPIO_CS"
+        default 4
+
+    config LCD_GPIO_BL
+        int "LCD_GPIO_BL"
+        default 2
+    
+    choice CHOICE_X_Y_Z
+        prompt "CHOICE_X_Y_Z"
+        default X
+
+        config X 
+        bool "X"
+
+        config Y 
+        bool "Y"
+
+        config Z 
+        bool "Z"
+    endchoice
+
+endmenu

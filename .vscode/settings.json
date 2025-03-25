@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "driver_enc.h": "c",
+        "gpio.h": "c",
+        "ws2812.h": "c",
+        "esp_log.h": "c",
+        "ws2812_led.h": "c",
+        "*.tcc": "c",
+        "deque": "c",
+        "list": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "system_error": "c",
+        "freertos.h": "c",
+        "stdbool.h": "c"
+    },
+    "workbench.colorTheme": "Default Light+"
+}

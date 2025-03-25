@@ -1,0 +1,2 @@
+source /home/mariem/ili9341_display_driver/build/bootloader/gdbinit/symbols
+source /home/mariem/ili9341_display_driver/build/bootloader/gdbinit/connect
