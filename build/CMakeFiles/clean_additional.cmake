@@ -18,7 +18,7 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "ili9341_display_driver.map"
   "ldgen_libraries"
   "ldgen_libraries.in"
-  "project_elf_src_esp32c3.c"
+  "project_elf_src_esp32.c"
   "x509_crt_bundle.S"
   )
 endif()

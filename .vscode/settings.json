@@ -13,7 +13,8 @@
         "vector": "c",
         "system_error": "c",
         "freertos.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "kconfig": "cpp"
     },
-    "workbench.colorTheme": "Default Light+"
+    "workbench.colorTheme": "Visual Studio Dark - C++"
 }

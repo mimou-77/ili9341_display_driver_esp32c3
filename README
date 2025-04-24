@@ -3,3 +3,17 @@ Driver for ili9341 display
 esp32c3 - esp-idf 
 
 lvgl ui can be created directly inside ui()
+
+
+
+
+### component
+
+- (optional ; note) Kconfig.projbuild inside main/
+
+- in top-level CMakeLists.txt : set(EXTRA_COMPONENT_DIRS components)
+
+- in main/CMakeLists : REQUIRES ili9341_display_driver
+
+- component created via : idf.py create-component 
+
